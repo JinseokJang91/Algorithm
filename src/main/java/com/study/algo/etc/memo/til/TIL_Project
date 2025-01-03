@@ -1,0 +1,29 @@
+# 프로젝트에서 사용하는 Software
+
+1. Kafka
+
+2. Elastic Search
+
+3. Nexus
+
+4. Spring Boot
+
+5. 
+
+# 결제 관련
+
+1. 카드의 경우 PG사를 통해 결제 진행
+
+# 통신
+- ip, port, url 등..
+
+1. Socket 통신
+
+2. Http 통신
+- http, https 차이
+- http는 프로토콜이 한 종류
+- 프로토콜이란?
+
+# RowHandler
+- 대용량 데이터 처리 시 성능 저하, 메모리 부족으로 인한 OOM(Out Of Memory) 현상 해결을 위해 사용
+- queryWithRowHandler() 메소드 사용하여 한 Row씩 메모리에 담아 처리

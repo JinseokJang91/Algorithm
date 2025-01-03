@@ -1,0 +1,646 @@
+[ Develop & Daily Life Record ]
+
+ # 2023-08-27
+  - (DONE) ERD
+  - (DONE) Git Repository import
+  - (TODO) Postgres(RDBMS), MongoDB(NoSQL) Study
+  - (DONE) Social Login Open API Study
+ 
+ # 2023-08-28
+  - (DONE) PR Check
+  
+ # 2023-08-29
+  - (DONE) IntelliJ install
+  
+ # 2023-08-30
+  - (TODO) Spring Log
+  
+ # 2023-08-31
+  - (DONE) JPA Study
+  
+ # 2023-09-01
+  - (DONE) Hexagonal Architecture Apply Study
+  
+ # 2023-09-02
+  - (TODO) Kafka Apply Study
+ 
+ # 2023-09-03
+  - (TODO) arrange SI project's CS Information
+  
+ # 2023-09-04
+  - (DONE) (work) finish my work until 6th Sep
+ 
+ # 2023-09-05
+  - (DONE) (work) rebuild procedure
+ 
+ # 2023-09-06
+  - (DONE) (work) test batch
+  
+ # 2023-09-07
+  - (DONE) (work) fix error
+  
+ # 2023-09-08
+  - (TODO) WebRTC..
+  
+ # 2023-09-09
+  - (TODO) Live Streaming Server
+ 
+ # 2023-09-10
+  - (DONE) Hexagonal Architecture Documentation (Assignment, ~ 09/17)
+  
+ # 2023-09-11
+  - (DONE) Break
+ 
+ # 2023-09-12
+  - (TODO) AWS functions
+  
+ # 2023-09-13
+  - (DONE) IAM account regist
+  
+ # 2023-09-14
+  - (DONE) package struct
+  
+ # 2023-09-15
+  - (DONE) (work) Subtract Repay Test
+ 
+ # 2023-09-16
+  - (TODO) Git Action
+  
+ # 2023-09-17
+  - (DONE) Broadcast related API
+ 
+ # 2023-09-18
+  - (DONE) merge BroadCast Basic functions
+ 
+ # 2023-09-19
+  - (DONE) make Common Response Class, Status Enum Class
+  
+ # 2023-09-20
+  - (DONE) make BroadcastStation getInfo, modifyTitle process
+ 
+ # 2023-09-21
+  - (DONE) set Dockerfile, docker-compose.yml
+ 
+ # 2023-09-22
+  - (DONE) arrange Dockerfile attributes
+  
+ # 2023-09-23
+  - (TODO) install postgrsql
+ 
+ # 2023-09-24
+  - (TODO) Exception handler
+  
+ # 2023-09-25
+  - (DONE) make functions
+  
+ # 2023-09-26
+  - (TODO) Logger set
+ 
+ # 2023-09-27
+  - (DONE) (work) test
+ 
+ # 2023-09-28
+  - (DONE) broadcastStation file re-make
+ 
+ # 2023-10-02
+  - (TODO) API Url pattern
+  
+ # 2023-10-03
+  - (TODO) Transaction management
+  
+ # 2023-10-06
+  - (DONE) (work) Integration Test preparation (10.10~)
+ 
+ # 2023-10-06
+  - (DONE) (work) last Repay Module inspection
+ 
+ # 2023-10-08
+  - (TODO) Chatting study
+ 
+ # 2023-10-09
+  - (DONE) JPA Test
+ 
+ # 2023-10-10 
+  - (DONE) (work) batch test
+ 
+ # 2023-10-12
+  - (DONE) (work) batch to api data check
+  
+ # 2023-10-13
+  - (DONE) (work) test finish
+  
+ # 2023-10-17
+  - (TODO) Web Socket
+  
+ # 2023-10-18
+  - (TODO) Chat Server
+ 
+ # 2023-10-19
+  - (DONE) Docker lesson - Linux
+  
+ # 2023-10-20
+  - (DONE) Docker lesson - Putty setting
+  
+ # 2023-10-21
+  - (DONE) (work) payment test
+  
+ # 2023-10-22
+  - (DONE) Docker lesson - Shell
+ 
+ # 2023-10-23
+  - (DONE) Docker lesson - Docker install
+  
+ # 2023-10-24
+  - (DONE) Docker lesson - image, container, docker command
+  
+ # 2023-10-25
+  - (DONE) Docker lesson - docker container execution
+ 
+ # 2023-10-26
+  - (DONE) (work) integration test0
+ 
+ # 2023-10-27
+  - (DONE) (work) settlement, refund test
+ 
+ # 2023-10-28
+  - (DONE) (work) associated test
+  
+ # 2023-10-29
+  - (DONE) Docker lesson - docker compose, nginx
+  
+ # 2023-10-30
+  - (DONE) (work) promotion test
+  
+ # 2023-10-31
+  - (DONE) (work) promotion point re-test
+ 
+ # 2023-11-01
+  - (DONE) (work) withdraw settlement test
+ 
+ # 2023-11-02
+  - (DONE) (work) reward test..
+  
+ # 2023-11-03
+  - (DONE) (work) Integration test end
+  
+ # 2023-11-04
+  - (DONE) (work) reward test data check 
+ 
+ # 2023-11-05
+  - (DONE) WebSocket Communication
+ 
+ # 2023-11-06
+  - (DONE) (work) final promotion test
+ 
+ # 2023-11-07
+  - (DONE) (work) withdraw settlement test
+ 
+ # 2023-11-08
+  - (DONE) (work) withdraw settlement test 2
+  
+ # 2023-11-09
+  - (DONE) (work) test end!
+ 
+ # 2023-11-10
+  - (DONE) Websocket test
+ 
+ # 2023-11-12
+  - (TODO) Chat infra study
+  
+ # 2023-11-13
+  - (TODO) Chat Cache Management
+ 
+ # 2023-11-14
+  - (DONE) (work) log arrange
+ 
+ # 2023-11-15
+  - (DONE) (work) specification check
+ 
+ # 2023-11-16
+  - (DONE) (work) create monitoring sql
+ 
+ # 2023-11-17
+  - (DONE) (work) open project..!!!
+ 
+ # 2023-11-18
+  - (DONE) (work) issue and data check
+ 
+ # 2023-11-19
+  - (DONE) (work) batch data check
+ 
+ # 2023-11-20
+  - (DONE) (work) continuous monitoring
+ 
+ # 2023-11-21
+  - (DONE) (work) data check associated api 
+ 
+ # 2023-11-22
+  - (DONE) (work) monitoring and issue check
+ 
+ # 2023-11-23
+  - (TODO) (work) taking over statement
+ 
+ # 2023-11-24
+  - (DONE) (work) promotion reward data check
+ 
+ # 2023-11-25
+  - (DONE) (work) remote monitoring
+ 
+ # 2023-11-26
+  - (DONE) (work) also remote monitoring
+ 
+ # 2023-11-27
+  - (DONE) (work) repay settlement data check
+ 
+ # 2023-11-28
+  - (DONE) (work) batch settlement test
+ 
+ # 2023-11-29
+  - (DONE) (work) monitoring
+ 
+ # 2023-11-30
+  - (DONE) (work) offer help to resolve front error
+ 
+ # 2023-12-01
+  - (DONE) take a break
+ 
+ # 2023-12-02
+  - (DONE) home shopping order monitoring
+ 
+ # 2023-12-03
+  - (DONE) improve in health
+ 
+ # 2023-12-04
+  - (DONE) take a break..
+ 
+ # 2023-12-05
+  - (DONE) (work) phone settlement & refund dev test
+  
+ # 2023-12-06
+  - (DONE) (work) batch & procedure supplement
+ 
+ # 2023-12-07
+  - (DONE) (work) write a guide for making jar file
+ 
+ # 2023-12-08
+  - (DONE) (work) handling cs - data revision, settlement cancel
+ 
+ # 2023-12-09
+  - (DONE) (work) skip process add
+ 
+ # 2023-12-12
+  - (DONE) break after travel
+ 
+ # 2023-12-13
+  - (DONE) (work) data monitoring
+ 
+ # 2023-12-14
+  - (DONE) (work) ready for taking over statement
+ 
+ # 2023-12-15
+  - (DONE) (work) repayment monitoring
+ 
+ # 2023-12-17
+  - (DONE) break for getting over cold
+ 
+ # 2023-12-18
+  - (DONE) company year-end party
+ 
+ # 2023-12-19
+  - (DONE) monitoring
+ 
+ # 2023-12-20
+  - (DONE) take over statement - late repayment
+ 
+ # 2023-12-21
+  - (DONE) monitoring
+ 
+ # 2023-12-22
+  - (DONE) monitoring
+ 
+ # 2023-12-23
+  - (DONE) break for getting over cold
+ 
+ # 2023-12-24
+  - (DONE) break for getting over cold
+ 
+ # 2023-12-25
+  - (DONE) take a break - christmas~
+ 
+ # 2023-12-26
+  - (DONE) arrange project environment
+ 
+ # 2023-12-27
+  - (DONE) arrange project work
+ 
+ # 2023-12-28
+  - (DONE) vue.js basic study
+ 
+ # 2023-12-29
+  - (DONE) evacuation - project finally end
+ 
+ # 2023-12-30
+  - (DONE) draw up plan:self-improvement
+ 
+ # 2023-12-31
+  - (DONE) visit Ulsan home
+ 
+ # 2024-01-02
+  - (DONE) environment setting
+ 
+ # 2024-01-03
+  - (DONE) work distribution
+ 
+ # 2024-01-04
+  - (DONE) arrange order & settlement part's tasks and make a ppt for next e-commerce project
+ 
+ # 2024-01-05
+  - (DONE) arrange order & settlement part's tasks and make a ppt for next e-commerce project
+ 
+ # 2024-01-06
+  - (DONE) take a rest
+ 
+ # 2024-01-07
+  - (DONE) take a rest
+ 
+ # 2024-01-09
+  - (DONE) organize the recent trends of e-commerce
+ 
+ # 2024-01-10
+  - (DONE) organize the recent trends of e-commerce
+ 
+ # 2024-01-12
+  - (DONE) make simple ERD which can express e-commerce order system
+ 
+ # 2024-01-13
+  - (DONE) take a break
+ 
+ # 2024-01-15
+  - (DONE) ready for e-commerce new project
+ 
+ # 2024-01-16
+  - (DONE) complete ERD diagram of E-Commerce order&settlement tasks
+ 
+ # 2024-01-17
+  - (DONE) complete the display specification of S-Membership
+ 
+ # 2024-01-18
+  - (DONE) study node.js
+ 
+ # 2024-01-20
+  - (DONE) study Vue.js (Vue 3.4) 
+ 
+ # 2024-01-21
+  - (DONE) take care my niece
+ 
+ # 2024-01-22
+  - (DONE) study Vue.js - official documents
+ 
+ # 2024-01-23
+  - (DONE) study Vue.js - Guide Practice in VSCode
+ 
+ # 2024-01-24
+  - (DONE) study Vue.js - Guide Practice in VSCode 2nd day
+ 
+ # 2024-01-25
+  - (DONE) modify e-commerce task arrangement
+ 
+ # 2024-01-26
+  - (DONE) modify e-commerce task arrangement 2
+ 
+ # 2024-01-27
+  - (DONE) complete the new mobile phone setting
+ 
+ # 2024-01-28
+  - (DONE) WebSocket study restart
+ 
+ # 2024-01-29
+  - (DONE) modify e-commerce task arrangement 3
+ 
+ # 2024-01-30
+  - (DONE) study Vue.js - Guide Practice in VSCode 3nd day
+ 
+ # 2024-01-31
+  - (DONE) changeover company's solution legacy to REST API
+ 
+ # 2024-02-01
+  - (DONE) take a meeting for company's solution legacy jsp to Vue
+ 
+ # 2024-02-02
+  - (DONE) analyze legacy codes and new Vue project of solution which based of toDoList
+ 
+ # 2024-02-03
+  - (TODO) study librarys that have relation with Vue.js, Vite.js
+  
+ # 2024-02-05
+  - (DONE) resolve toDoList one at a time
+ 
+ # 2024-02-06
+  - (DONE) arrange components of Primevue library
+ 
+ # 2024-02-08
+  - (DONE) make .js files which include common functions and global variables 
+ 
+ # 2024-02-09
+  - (DONE) unify the professional communication process
+ 
+ # 2024-02-12
+  - (DONE) devise a method to manage statement of system with pinia library
+ 
+ # 2024-02-13
+  - (DONE) execute the plan for applying Pinia to Vue project
+ 
+ # 2024-02-15
+  - (DONE) make common components for front development
+ 
+ # 2024-02-16
+  - (DONE) finish draft of common components for front development
+ 
+ # 2024-02-17
+  - (DONE) make additional components for development guide
+ 
+ # 2024-02-18
+  - (DONE) 2nd day - make additional components for development guide
+ 
+ # 2024-02-19
+  - (DONE) guide for developers how to use components made by common component develpoers
+ 
+ # 2024-02-20
+  - (DONE) make a decision what naming is suitable for Vue project packages and components
+ 
+ # 2024-02-21
+  - (DONE) modify common components
+ 
+ # 2024-02-22
+  - (DONE) develop search bar component of Vue project
+ 
+ # 2024-02-25
+  - (DONE) take online Vue classes
+ 
+ # 2024-02-26
+  - (DONE) transfer the project from SVN to GitLab
+ 
+ # 2024-02-27
+  - (DONE) make common functions
+ 
+ # 2024-02-28
+  - (DONE) make searchbar routing to menu
+ 
+ # 2024-02-29
+  - (DONE) make menu list in searchbar
+ 
+ # 2024-03-01
+  - (DONE) adjust the searchbar result in css
+ 
+ # 2024-03-02
+  - (DONE) start taking classes of inflearn
+ 
+ # 2024-03-03
+  - (DONE) complete daily class of inflearn
+ 
+ # 2024-03-04
+  - (DONE) complete searchbar development and find new tasks
+ 
+ # 2024-03-05
+  - (DONE) take 2nd class of Inflearn
+ 
+ # 2024-03-06
+  - (DONE) develop modal component for use instead of popup
+ 
+ # 2024-03-07
+  - (DONE) take 2nd chapter of Inflearn classes
+ 
+ # 2024-03-08
+  - (DONE) analyze the project for changing message communication to REST API communication
+ 
+ # 2024-03-09
+  - (DONE) complete 2nd chapter of Inflearn classes
+ 
+ # 2024-03-10
+  - (DONE) search websocket live chat
+ 
+ # 2024-03-12
+  - (DONE) plan to change spring legacy to springboot
+
+ # 2024-03-13
+  - (DONE) complete 3rd chapter of Inflearn classes  
+ 
+ # 2024-03-14
+  - (DONE) make custom exception and exception handler in springboot
+
+ # 2024-03-15
+  - (DONE) test custom exception which I made and check impact evaluation of transaction 
+ 
+ # 2024-03-17
+  - (DONE) complete 4,5th chapter of Inflearn classes  
+
+ # 2024-03-18
+  - (DONE) complete 6th chapter of Inflearn classes
+  
+ # 2024-03-19
+  - (DONE) complete custom exception and common response which extends ResponseEntity
+
+ # 2024-03-20
+  - (DONE) start applying spring security to project
+
+ # 2024-03-21
+  - (DONE) complete 7th chapter of Inflearn classes
+ 
+ # 2024-03-22
+  - (DONE) implement spring security
+ 
+ # 2024-03-23
+  - (DONE) complete 8th chapter of Inflearn classes
+
+ # 2024-03-24
+  - (DONE) complete 9th chapter of Inflearn classes
+
+ # 2024-03-25
+  - (DONE) test spring security process and apply jwt token authentication
+  
+ # 2024-03-26
+  - (DONE) refactoring spring security process and jwt token authentication
+  
+ # 2024-03-27
+  - (DONE) apply refresh jwt token authentication
+  
+ # 2024-03-28
+  - (DONE) test reissue access token and refresh token
+
+ # 2024-03-30
+  - (DONE) make arrangement of all chapter in Inflearn spring class
+ 
+ # 2024-03-31
+  - (DONE) make arrangement of spring security
+
+ # 2024-04-01
+  - (DONE) change jwt token process setting header to setting httpOnly cookie
+  
+ # 2024-04-02
+  - (DONE) test jwt token generating process and reissue process
+  
+ # 2024-04-03
+  - (DONE) start new inflearn class - springboot & jpa
+  
+ # 2024-04-04
+  - (DONE) make logout api with remove jwt token cookie
+
+ # 2024-04-05
+  - (DONE) make common function's guides for developers
+
+ # 2024-04-06
+  - (DONE) take 2nd class of Inflearn
+  
+ # 2024-04-08
+  - (DONE) set logout filter and make api of get common codes
+
+ # 2024-04-09
+  - (DONE) set common codes to session store in Pinia
+  
+ # 2024-04-10
+  - (DONE) take a break
+ 
+ # 2024-04-11
+  - (DONE) set common function in JavaScript of getting common codes
+
+ # 2024-04-12
+  - (DONE) take 3rd class of Inflearn
+
+ # 2024-04-13
+  - (DONE) take 4th class of Inflearn
+  
+ # 2024-04-14
+  - (DONE) take a break for next week
+  
+ # 2024-04-16
+  - (DONE) set architecture for next legacy project
+
+ # 2024-04-17
+  - (DONE) refatoring jwt token issue process
+
+ # 2024-04-18
+  - (DONE) set dropdown component having multi connect and effect 
+
+ # 2024-04-19
+  - (DONE) set dropdown component having multi connect and effect again
+  
+ # 2024-04-21
+  - (DONE) take 5th class of Inflearn
+
+ # 2024-04-22
+  - (DONE) complete dropdown components and set custom bean for developers to get user's information 
+
+ # 2024-04-24
+  - (DONE) refatoring jwt token reissue process
+
+ # 2024-04-25
+  - (DONE) complete refactoring jwt token reissue process - unification
+
+ # 2024-04-28
+  - (DONE) complete final chpater of Inflearn class
+
+ # 2024-04-29
+  - (DONE) supplement token issue process with spring security
+
+ # 2024-04-30
+  - (TODO) transfer classes in common packages of legacy to new springboot project
