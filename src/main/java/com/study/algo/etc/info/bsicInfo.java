@@ -1,4 +1,4 @@
-package etc.info;
+package com.study.algo.etc.info;
 
 public class bsicInfo {
 

@@ -1,4 +1,4 @@
-package etc.lunchMenu;
+package com.study.algo.etc.lunchMenu;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

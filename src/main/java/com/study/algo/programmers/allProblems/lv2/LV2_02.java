@@ -1,4 +1,4 @@
-package programmers.allProblems.lv2;
+package com.study.algo.programmers.allProblems.lv2;
 
 import java.util.ArrayList;
 import java.util.List;

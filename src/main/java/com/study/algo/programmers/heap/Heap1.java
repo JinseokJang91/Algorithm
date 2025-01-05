@@ -1,4 +1,4 @@
-package programmers.heap;
+package com.study.algo.programmers.heap;
 
 import java.util.PriorityQueue;
 

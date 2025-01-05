@@ -1,4 +1,4 @@
-package baekjoon.bfs;
+package com.study.algo.baekjoon.bfs;
 
 import java.util.Scanner;
 

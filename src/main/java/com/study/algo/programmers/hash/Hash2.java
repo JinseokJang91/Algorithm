@@ -1,4 +1,4 @@
-package programmers.hash;
+package com.study.algo.programmers.hash;
 
 import java.util.Arrays;
 

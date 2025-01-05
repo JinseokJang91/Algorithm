@@ -1,4 +1,4 @@
-package programmers.allProblems.lv2;
+package com.study.algo.programmers.allProblems.lv2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -1,4 +1,4 @@
-package programmers.greedy;
+package com.study.algo.programmers.greedy;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package programmers.exhausitiveSearch;
+package com.study.algo.programmers.exhausitiveSearch;
 
 import java.util.ArrayList;
 import java.util.List;

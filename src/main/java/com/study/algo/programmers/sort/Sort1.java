@@ -1,4 +1,4 @@
-package programmers.sort;
+package com.study.algo.programmers.sort;
 
 import java.util.ArrayList;
 import java.util.Comparator;

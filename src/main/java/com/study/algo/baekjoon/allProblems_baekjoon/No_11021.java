@@ -1,4 +1,4 @@
-package baekjoon.allProblems_baekjoon;
+package com.study.algo.baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

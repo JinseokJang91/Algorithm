@@ -1,4 +1,4 @@
-package programmers.allProblems.lv1;
+package com.study.algo.programmers.allProblems.lv1;
 
 import java.util.Scanner;
 

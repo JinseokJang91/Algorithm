@@ -1,4 +1,4 @@
-package etc.lotto;
+package com.study.algo.etc.lotto;
 
 import java.util.ArrayList;
 import java.util.Iterator;

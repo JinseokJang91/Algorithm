@@ -1,4 +1,4 @@
-package programmers.sort;
+package com.study.algo.programmers.sort;
 
 public class Sort2 {
 	//정렬>가장 큰 수

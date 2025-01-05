@@ -1,4 +1,4 @@
-package programmers.greedy;
+package com.study.algo.programmers.greedy;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class Greedy2 {
 		//알파벳은 총 26개(A~Z : 65~90 , a~z : 97~122)
 		String name = "BAAAABB";
 
-		programmers.greedy.GreedyTest gt = new GreedyTest();
+		com.study.algo.programmers.greedy.GreedyTest gt = new GreedyTest();
 		int result = gt.solution(name);
 		System.out.println("result : " + result);
 
