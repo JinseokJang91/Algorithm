@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,9 +10,9 @@ public class No_2480 {
 
 	public static void main(String[] args) throws Exception{
 
-		//2480�� �ֻ��� �� ��
+		//2480번 주사위 세 개
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+
 		String input = br.readLine();
 		StringTokenizer st = new StringTokenizer(input, " ");
 		int num1 = Integer.parseInt(st.nextToken());
@@ -23,15 +23,15 @@ public class No_2480 {
 //		set.add(num1);
 //		set.add(num2);
 //		set.add(num3);
-		
-		//set�� add�ϸ鼭 false�� ���� ���� ã��(�ߺ��� �ִ� ��)
+
+		//set에 add하면서 false가 나는 값을 찾음(중복이 있는 값)
 		boolean chk1 = set.add(num1);
 		boolean chk2 = set.add(num2);
 		boolean chk3 = set.add(num3);
-		
-		int dupNum = 0;		//�ߺ��� ��
+
+		int dupNum = 0;		//중복된 수
 		int maxNum = Math.max(num1, num2) > num3 ? Math.max(num1, num2) : num3 ;
-		
+
 		if(!chk1) {
 			dupNum = num1;
 		}
@@ -48,21 +48,21 @@ public class No_2480 {
 		System.out.println("dupNum : " + dupNum);
 		System.out.println("maxNum : " + maxNum);
 
-		int prizeMoney = 0;	//���
-		
-		
+		int prizeMoney = 0;	//상금
+
+
 		if(dupNum != 0) {
 			if(set.size() == 2) {
 				prizeMoney = 1000 + dupNum * 100;
 			}
-			
+
 			if(set.size() == 1) {
 				prizeMoney = 10000 + dupNum * 1000;
 			}
 		}else {
 			prizeMoney = maxNum * 100;
 		}
-		
+
 		System.out.println("prizeMoney : " + prizeMoney);
 		br.close();
 	}

@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -9,7 +9,7 @@ public class No_2010 {
 
 	public static void main(String[] args) throws Exception{
 
-		//2010�� �÷���
+		//2010번 플러그
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int N = Integer.parseInt(br.readLine());
@@ -18,17 +18,17 @@ public class No_2010 {
 			int plugs = Integer.parseInt(br.readLine());
 			list.add(plugs);
 		}
-		
-		//���� �÷��� 1��
-		//N���� ��Ƽ��
-		//�� ��Ƽ�� �� ����
-		//�־��� �� ������ �� �ִ� ��ǻ�� �ִ� ����
+
+		//집에 플러그 1개
+		//N개의 멀티탭
+		//각 멀티탭 구 개수
+		//주어질 때 연결할 수 있는 컴퓨터 최대 개수
 		int maxPc = 0;
 		for(int i=0; i<list.size(); i++) {
 			if(i < list.size() - 1) {
 				maxPc += list.get(i) - 1;
 			}
-			
+
 			if(i == list.size() - 1) {
 				maxPc += list.get(i);
 			}

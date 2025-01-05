@@ -1,4 +1,4 @@
-package com.study.algo.programmers.allProblems.lv1;
+package programmers.allProblems.lv1;
 
 public class LV1_11 {
 
@@ -15,21 +15,21 @@ public class LV1_11 {
 }
 
 class SolutionLV1_11 {
-    public int solution(int[] absolutes, boolean[] signs) {
-        int answer = 123456789;
-        
-        //���� �ڵ� ç���� ����2 > ���� ���ϱ�
-        int sum = 0;
-        for(int i=0; i<absolutes.length; i++) {
-        	if(signs[i] == true) {
-        		sum += absolutes[i];
-        	}else {
-        		sum -= absolutes[i];
-        	}
-        }
-        System.out.println("sum : " + sum);
-        answer = sum;
-        
-        return answer;
-    }
+	public int solution(int[] absolutes, boolean[] signs) {
+		int answer = 123456789;
+
+		//월간 코드 챌린지 시즌2 > 음양 더하기
+		int sum = 0;
+		for(int i=0; i<absolutes.length; i++) {
+			if(signs[i] == true) {
+				sum += absolutes[i];
+			}else {
+				sum -= absolutes[i];
+			}
+		}
+		System.out.println("sum : " + sum);
+		answer = sum;
+
+		return answer;
+	}
 }

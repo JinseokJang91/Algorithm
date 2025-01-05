@@ -1,4 +1,4 @@
-package com.study.algo.programmers.allProblems.lv1;
+package programmers.allProblems.lv1;
 
 public class LV1_38 {
 
@@ -13,15 +13,15 @@ public class LV1_38 {
 }
 
 class SolutionLV1_38 {
-    public int solution(int n) {
-    	//�������� > �ڸ��� ������
-    	int answer = 0;
+	public int solution(int n) {
+		//연습문제 > 자릿수 더히기
+		int answer = 0;
 
-    	String val = String.valueOf(n);
-    	for(int i=0; i<val.length(); i++) {
-    		answer += Integer.valueOf(String.valueOf(val.charAt(i)));
-    	}
+		String val = String.valueOf(n);
+		for(int i=0; i<val.length(); i++) {
+			answer += Integer.valueOf(String.valueOf(val.charAt(i)));
+		}
 
-        return answer;
-    }
+		return answer;
+	}
 }

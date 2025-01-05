@@ -1,22 +1,22 @@
-package com.study.algo.programmers.hash;
+package programmers.hash;
 
 import java.util.Arrays;
 
 public class Hash2 {
 
-	//�ؽ�>��ȭ��ȣ ���
+	//해시>전화번호 목록
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		String[] phone_book = {"119", "97674223", "1195524421"};
 		//String[] phone_book = {"123", "456", "789"};
 		//String[] phone_book = {"12", "123", "1235", "567", "88"};
-		
+
 		boolean answer = true;
 		//System.out.println(phone_book[1].substring(0,phone_book[0].length()));
-		//���ѻ���
-		//1. phone_book�� length : 1 �̻� 1,000,000 ����
-		//2. �� ��ȭ��ȣ�� length :  1 �̻� 20 ����
+		//제한사항
+		//1. phone_book의 length : 1 이상 1,000,000 이하
+		//2. 각 전화번호의 length :  1 이상 20 이하
 		int check = 0;
 		String compare = "";
 		if(phone_book.length>=1 && phone_book.length<=1000000) {
@@ -31,7 +31,7 @@ public class Hash2 {
 			System.out.print("#"+phone_book[i]);
 		}
 		System.out.println();
-		
+
 		if(check == 1) {
 			for(int i=0; i<phone_book.length; i++) {
 				if(i+1<phone_book.length) {
@@ -58,12 +58,12 @@ public class Hash2 {
 				}
 			}
 		}
-		
+
 		System.out.println("answer : " + answer);
-		
-		//���� for���� ���� �ʰ� ���� for���� ���� ����
-		//Arrays.sort�� �̿��� �����ϸ� ���λ簡 ����Ǵ� �� ������� ������
-		//���� �ϳ��ϳ� ���� �ʿ� ���� �յڸ� ���ϸ� �Ǳ� ������ ���� for�� ���
+
+		//이중 for문을 쓰지 않고 단일 for문을 쓰는 이유
+		//Arrays.sort를 이용해 정렬하면 접두사가 공통되는 것 순서대로 나열됨
+		//따라서 하나하나 비교할 필요 없이 앞뒤만 비교하면 되기 때문에 단일 for문 사용
 		
 		
 		/*
@@ -96,7 +96,7 @@ public class Hash2 {
 				}
 		 * 
 		 * */
-		
+
 	}
 
 }

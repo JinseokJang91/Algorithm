@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -6,12 +6,12 @@ import java.io.InputStreamReader;
 public class No_2439 {
 
 	public static void main(String[] args) throws Exception{
-		
-		//2439�� �����-2
+
+		//2439번 별찍기-2
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+
 		int N = Integer.parseInt(br.readLine());
-		
+
 		int x = N;
 		for(int i=0; i<N; i++) {
 			for(int j=0; j<N; j++) {
@@ -24,7 +24,7 @@ public class No_2439 {
 			x--;
 			System.out.println();
 		}
-		
+
 		br.close();
 	}
 }

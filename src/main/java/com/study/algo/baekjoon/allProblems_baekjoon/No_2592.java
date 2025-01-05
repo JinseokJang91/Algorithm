@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,10 +10,10 @@ public class No_2592 {
 
 	public static void main(String[] args) throws Exception{
 
-		//2592�� ��ǥ��
+		//2592번 대표값
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		//�־����� �ڿ����� 1,000���� ���� 10�� ���
+		//주어지는 자연수는 1,000보다 작은 10의 배수
 		List<Integer> list = new ArrayList<Integer>();
 		int sum = 0;
 		for(int i=0; i<10; i++) {
@@ -22,15 +22,15 @@ public class No_2592 {
 			list.add(score);
 		}
 		System.out.println("list : " + list);
-		
-		//���
+
+		//평균
 		int avg = sum / 10;
-		
+
 		Collections.sort(list);
 		System.out.println("list(ASC) : " + list);
-		
-		//list ������������ ���� �� �����ε������� �����ε������� ���ؼ�
-		//ī��Ʈ�� ����ϰ�, �ִ� ī��Ʈ�� �ش� ���� �����ϴ� ��� ���
+
+		//list 오름차순으로 정렬 후 현재인덱스값과 다음인덱스값을 비교해서
+		//카운트를 계산하고, 최대 카운트와 해당 값을 저장하는 방법 사용
 		int idxVal = 0;
 		int cnt = 1;
 		int cntSave = 0;
@@ -50,13 +50,13 @@ public class No_2592 {
 				System.out.println("cnt : " + cnt);
 				System.out.println("cntSave : " + cntSave);
 				System.out.println("modeVal : " + modeVal);
-			}			
+			}
 		}
 		//System.out.println("cntSave : " + cntSave);
 
 		System.out.println(avg);
 		System.out.println(modeVal);
-		
+
 		br.close();
 	}
 

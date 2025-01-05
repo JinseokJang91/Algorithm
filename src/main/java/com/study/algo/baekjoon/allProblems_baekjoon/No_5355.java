@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,13 +10,13 @@ public class No_5355 {
 
 	public static void main(String[] args) throws Exception{
 
-		//5355�� ȭ�� ����
+		//5355번 화성 수학
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int T = Integer.parseInt(br.readLine());
 		StringTokenizer st = null;
 		List<String> list = new ArrayList<String>();
-		
+
 		for(int i=0; i<T; i++) {
 			String input = br.readLine();
 			st = new StringTokenizer(input, " ");
@@ -40,11 +40,11 @@ public class No_5355 {
 			}
 			list.add(String.format("%.2f", cal));
 		}
-		
+
 		for(int i=0; i<list.size(); i++) {
 			System.out.println(list.get(i));
 		}
-		
+
 		br.close();
 	}
 

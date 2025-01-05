@@ -1,4 +1,4 @@
-package com.study.algo.programmers.allProblems.lv1;
+package programmers.allProblems.lv1;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -6,40 +6,40 @@ import java.util.List;
 
 public class LV1_22 {
 
-	public static void main(String[] args) {
-		SolutionLV1_22 sol = new SolutionLV1_22();
-		String s = "Zbcdefg";
-		String answer = sol.solution(s);
-		System.out.println("answer : " + answer);
-	}
+    public static void main(String[] args) {
+        SolutionLV1_22 sol = new SolutionLV1_22();
+        String s = "Zbcdefg";
+        String answer = sol.solution(s);
+        System.out.println("answer : " + answer);
+    }
 
 }
 
 class SolutionLV1_22 {
     public String solution(String s) {
-    	
-    	//�������� > ���ڿ� ������������ ��ġ�ϱ�
+
+        //연습문제 > 문자열 내림차순으로 배치하기
         String answer = "";
-        
-        //�ҹ��ڰ� �빮�ں��� ū ������ ����
-        //���ڸ� ū �ͺ��� ���� ������ ����
+
+        //소문자가 대문자보다 큰 것으로 간주
+        //문자를 큰 것부터 작은 순으로 정렬
         char[] arr = new char[s.length()];
         arr = s.toCharArray();
-        
-        //���α׷��ӽ� ���� 2~5��
+
+        //프로그래머스 기준 2~5대
         List<Character> list = new ArrayList<Character>();
         for(int i=0; i<arr.length; i++) {
-        	list.add(arr[i]);
+            list.add(arr[i]);
         }
-        
+
         list.sort(Comparator.reverseOrder());
         System.out.println("list : " + list);
-        
+
         for(int i=0; i<list.size(); i++) {
-        	answer += list.get(i);
+            answer += list.get(i);
         }
-        
-        /*//�������� -> ���α׷��ӽ� ���� ó�� �ӵ� 10�� - �ټ� ��ȿ������
+
+        /*//선택정렬 -> 프로그래머스 기준 처리 속도 10대 - 다소 비효율적임
         for(int i=0; i<arr.length; i++) {
         	for(int j=i; j<arr.length; j++) {
         		if(arr[j] > arr[i]) {
@@ -58,7 +58,7 @@ class SolutionLV1_22 {
         	answer += arr[i];
         }
         */
-        
+
         return answer;
     }
 }

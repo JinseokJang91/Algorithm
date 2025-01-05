@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.util.Scanner;
 
@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class No_10797 {
 
 	public static void main(String[] args){
-		// 10����
-		
+		// 10부제
+
 		//BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Scanner sc = new Scanner(System.in);
-		
+
 		int n = sc.nextInt();
 		int[] arr = new int[5];
 		for(int i=0; i<arr.length; i++) {
@@ -29,7 +29,7 @@ public class No_10797 {
 			}
 		}
 		System.out.println(count);
-		
+
 		sc.close();
 	}
 

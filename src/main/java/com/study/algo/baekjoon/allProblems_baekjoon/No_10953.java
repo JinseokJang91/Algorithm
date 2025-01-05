@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class No_10953 {
 
 	public static void main(String[] args) throws Exception{
-		//10953��
+		//10953번
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int T = Integer.parseInt(br.readLine());
@@ -23,11 +23,11 @@ public class No_10953 {
 			list.add(A + B);
 		}
 		//System.out.println("list : " + list);
-		
+
 		for(int i=0; i<list.size(); i++) {
 			System.out.println(list.get(i));
 		}
-		
+
 		br.close();
 	}
 

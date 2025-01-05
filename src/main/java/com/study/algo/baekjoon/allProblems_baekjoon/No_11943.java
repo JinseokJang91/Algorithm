@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,7 +8,7 @@ public class No_11943 {
 
 	public static void main(String[] args) throws Exception{
 
-		//11943�� ���� �ű��
+		//11943번 파일 옮기기
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		StringTokenizer st = null;
@@ -27,13 +27,13 @@ public class No_11943 {
 				D = Integer.parseInt(st.nextToken());
 			}
 		}
-		
-		//ù ��° �ٱ��� - ��� A / ������ B
-		//�� ��° �ٱ��� - ��� C / ������ D
+
+		//첫 번째 바구니 - 사과 A / 오렌지 B
+		//두 번째 바구니 - 사과 C / 오렌지 D
 		//1. A + D
 		//2. B + C
 		int minMove = Math.min(A + D, B + C);
-		System.out.println("�ּ� Ƚ�� : " + minMove);
+		System.out.println("최소 횟수 : " + minMove);
 		br.close();
 	}
 

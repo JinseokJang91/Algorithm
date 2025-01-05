@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,10 +10,10 @@ public class No_2953 {
 
 	public static void main(String[] args) throws Exception {
 
-		//2953�� ���� �丮���
+		//2953번 나는 요리사다
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		//�ټ� ���� �ٿ� �� �����ڰ� ���� �� ���� �� ������ �־�����.
+
+		//다섯 개의 줄에 각 참가자가 얻은 네 개의 평가 점수가 주어진다.
 		List<Integer> list = new ArrayList<Integer>();
 		StringTokenizer st = null;
 		for(int i=0; i<5; i++) {
@@ -26,7 +26,7 @@ public class No_2953 {
 			list.add(sum);
 		}
 		//System.out.println("list : " + list);
-		
+
 		int winnerIdx = 0;
 		int winnerScr = 0;
 		int tmpIdx = 0;
@@ -41,7 +41,7 @@ public class No_2953 {
 			//System.out.println("winnerScr : " + winnerScr);
 			tmpIdx++;
 		}
-		
+
 		System.out.println((winnerIdx + 1) + " " + winnerScr);
 		br.close();
 	}

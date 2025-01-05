@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,53 +8,53 @@ public class No_1476 {
 
 	public static void main(String[] args) throws Exception{
 
-		//1476�� ��¥ ���
+		//1476번 날짜 계산
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		//�ر԰� ��� ����� �ٸ� ����� ������ ���
-		//�� 3�� ��� - ���� ����, �¾�, ���� �ǹ�
+
+		//준규가 사는 나라는 다른 방식의 연도를 사용
+		//수 3개 사용 - 각각 지구, 태양, 달을 의미
 		//1 <= E <= 15
 		//1 <= S <= 28
 		//1 <= M <= 19
-		
-		//1���� 1 1 1�� ��Ÿ����
-		//16���� 1 16 16���� ��Ÿ�� �� �ִ�.
-		
-		//�־��� E S M �� �츮�� �˰� �ִ� ������ �� ������ ���ϱ�
-		//�������� 1 2 3 �� 5266���� ������
-		//��� ������ŭ ������ �����ٰ� 1 2 3 �� �Ǵ� ������ ������ ��
-		
+
+		//1년은 1 1 1로 나타내고
+		//16년은 1 16 16으로 나타낼 수 있다.
+
+		//주어진 E S M 이 우리가 알고 있는 연도로 몇 년인지 구하기
+		//예제에서 1 2 3 이 5266년인 이유는
+		//계속 범위만큼 돌리고 돌리다가 1 2 3 이 되는 순간의 연도인 것
+
 		String input = br.readLine();
 		StringTokenizer st = new StringTokenizer(input, " ");
-		//E, S, M ���� �ݺ����� ������ ������ ���� ��(�� �� �� ��ġ�ؾ� ��)
+		//E, S, M 값이 반복문을 돌리다 나오는 최종 값(세 개 다 일치해야 함)
 		int E = Integer.parseInt(st.nextToken());
 		int S = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
-		
-		//1����� ����
+
+		//1년부터 시작
 		int earth	= 1;
 		int sun		= 1;
 		int moon	= 1;
 		int presentYear = 1;
-		//�� ���� ���� �����ϸ� �ٽ� 1�� ����� ó���� ���ָ� ��
-		
+		//각 범위 끝에 도달하면 다시 1로 만드는 처리를 해주면 됨
+
 		if(earth == E && sun == S && moon == M) {
-			System.out.println("�ʱⰪ�� ��ġ!!! (1 1 1)");
+			System.out.println("초기값과 일치!!! (1 1 1)");
 			presentYear = 1;
 		}else {
-			//System.out.println("else����");
+			//System.out.println("else진입");
 			while(true) {
-				//System.out.println("while����");
-								
-				//�ر� ���� 1�� ��
+				//System.out.println("while진입");
+
+				//준규 나라 1년 후
 				earth++;
 				sun++;
 				moon++;
-				
-				//�츮 ���� 1�� ��
+
+				//우리 나라 1년 후
 				presentYear++;
-				
-				//�� ������ �Ѿ��ٸ� �ٽ� 1�� ������
+
+				//각 범위를 넘었다면 다시 1로 돌리기
 				if(earth > 15) {
 					earth = 1;
 				}
@@ -64,16 +64,16 @@ public class No_1476 {
 				if(moon > 19) {
 					moon = 1;
 				}
-				
+
 				if(earth == E && sun == S && moon == M) {
-					System.out.println("�Է¿����� ��ġ!!!");
+					System.out.println("입력연도와 일치!!!");
 					break;
 				}
 			}
 		}
-		
+
 		System.out.println("presentYear : " + presentYear);
-		
+
 		br.close();
 	}
 

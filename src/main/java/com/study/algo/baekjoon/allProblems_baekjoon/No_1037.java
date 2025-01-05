@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,7 +10,7 @@ import java.util.List;
 public class No_1037 {
 
 	public static void main(String[] args) throws Exception{
-		//1037��
+		//1037번
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		String input = br.readLine();
@@ -21,9 +21,9 @@ public class No_1037 {
 			list.add(Integer.parseInt(inputs[i]));
 		}
 		System.out.println("list : " + list);
-		
+
 		int answer = 0;
-		
+
 		if(inputs.length == 1) {
 			answer = list.get(0) * list.get(0);
 		}else {
@@ -31,7 +31,7 @@ public class No_1037 {
 			answer = list.get(0) * list.get(list.size()-1);
 		}
 		System.out.println("answer : " + answer);
-		
+
 		boolean chk = false;
 		for(int i=0; i<list.size(); i++) {
 			if(list.get(i) != 1 && answer%list.get(i) == 0) {
@@ -41,7 +41,7 @@ public class No_1037 {
 				break;
 			}
 		}
-		
+
 		if(chk == true) {
 			System.out.println(answer);
 		}

@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,14 +8,14 @@ public class No_9085 {
 
 	public static void main(String[] args) throws Exception{
 
-		//9085�� ���ϱ�
+		//9085번 더하기
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = null;
-		
+
 		int T = Integer.parseInt(br.readLine());
 		int[] answer = new int[T];
 		int ansIdx = 0;
-		
+
 		for(int i=0; i<T; i++) {
 			int N = Integer.parseInt(br.readLine());
 			String[] arr = new String[N];
@@ -28,11 +28,11 @@ public class No_9085 {
 			answer[ansIdx] = sum;
 			ansIdx++;
 		}
-		
+
 		for(int i=0; i<answer.length; i++) {
 			System.out.println(answer[i]);
 		}
-		
+
 		br.close();
 	}
 

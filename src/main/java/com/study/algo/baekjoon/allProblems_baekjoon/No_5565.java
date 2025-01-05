@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon.allProblems_baekjoon;
+package baekjoon.allProblems_baekjoon;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -6,8 +6,8 @@ import java.io.InputStreamReader;
 public class No_5565 {
 
 	public static void main(String[] args) throws Exception{
-		
-		//5565�� ������
+
+		//5565번 영수증
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int cal = 0;
@@ -18,7 +18,7 @@ public class No_5565 {
 				cal -= Integer.parseInt(br.readLine());
 			}
 		}
-		
+
 		System.out.println(cal);
 		br.close();
 	}
