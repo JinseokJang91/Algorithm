@@ -1,4 +1,4 @@
-package algorithm;
+package com.study.algo.algorithm;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package algorithm;
+package com.study.algo.algorithm;
 
 public class Sort {
 
