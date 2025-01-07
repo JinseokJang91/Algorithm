@@ -35,5 +35,7 @@ public class No_2480 {
         }
 
         System.out.println(result);
+
+        br.close();
     }
 }
