@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Ques_2606 {
+public class Ques_2606_dfs {
     static int[][] arr;
     static boolean[] visited;
     static int answer;
