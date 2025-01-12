@@ -52,6 +52,7 @@ public class Ques_1260 {
         System.out.println();
         bfs(V);
 
+        br.close();
     }
 
     private static void dfs(int node) {

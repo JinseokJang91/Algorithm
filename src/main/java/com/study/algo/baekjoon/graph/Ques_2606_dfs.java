@@ -43,6 +43,8 @@ public class Ques_2606_dfs {
 
         dfs(1);
         System.out.println(answer - 1);
+
+        br.close();
     }
 
     private static void dfs(int virusNode) {
