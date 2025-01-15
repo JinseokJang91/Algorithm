@@ -59,5 +59,7 @@ public class Ques_9012 {
         for(String s : result) {
             System.out.println(s);
         }
+
+        br.close();
     }
 }

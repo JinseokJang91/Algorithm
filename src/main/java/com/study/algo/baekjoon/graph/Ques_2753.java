@@ -13,6 +13,8 @@ public class Ques_2753 {
 
         int result = checkLeapYear(year);
         System.out.println(result);
+
+        br.close();
     }
 
     private static int checkLeapYear(int year) {
