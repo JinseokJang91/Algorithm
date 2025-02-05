@@ -17,6 +17,8 @@ public class Ques_1436 {
         // N번째 영화의 제목에 들어가는 수 출력
         N = Integer.parseInt(br.readLine());
 
+        /* 브루트포스 */
+
         //sol1();
 
         sol2();
