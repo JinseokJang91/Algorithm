@@ -1,4 +1,4 @@
-package com.study.algo.baekjoon;
+package com.study.algo.baekjoon.silver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
