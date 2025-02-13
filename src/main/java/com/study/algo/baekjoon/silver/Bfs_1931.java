@@ -42,7 +42,7 @@ public class Bfs_1931 {
             maxSum = Math.max(maxSum, sumTriangle[n-1][i]);
         }
 
-        bw.write(maxSum);
+        bw.write("" + maxSum);
 
         br.close();
         bw.close();
