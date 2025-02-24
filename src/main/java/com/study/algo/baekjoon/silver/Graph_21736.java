@@ -1,6 +1,8 @@
 package com.study.algo.baekjoon.silver;
 
 import java.io.*;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Graph_21736 {
@@ -37,7 +39,9 @@ public class Graph_21736 {
             }
         }
 
-        dfs(startX, startY);
+        //dfs(startX, startY);
+
+        bfs(startX, startY);
 
         if(friends == 0) {
             bw.write("TT");
@@ -47,6 +51,40 @@ public class Graph_21736 {
 
         br.close();
         bw.close();
+    }
+
+    private static void bfs(int x, int y) {
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[] {x, y});
+        visited[x][y] = true;
+
+        while(!queue.isEmpty()) {
+            int[] start = queue.poll();
+
+            for(int i = 0; i < 4; i++) {
+                int nextX = start[0] + dx[i];
+                int nextY = start[1] + dy[i];
+
+                if(nextX >= N || nextY >= M || nextX < 0 || nextY < 0) {
+                    continue;
+                }
+
+                if("X".equals(campus[nextX][nextY])) {
+                    continue;
+                }
+
+                if(visited[nextX][nextY]) {
+                    continue;
+                }
+
+                queue.offer(new int[]{nextX, nextY});
+                visited[nextX][nextY] = true;
+
+                if("P".equals(campus[nextX][nextY])) {
+                    friends++;
+                }
+            }
+        }
     }
 
     private static void dfs(int x, int y) {
@@ -75,4 +113,6 @@ public class Graph_21736 {
             dfs(nextX, nextY);
         }
     }
+
+
 }
