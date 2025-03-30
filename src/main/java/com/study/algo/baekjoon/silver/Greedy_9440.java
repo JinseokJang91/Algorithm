@@ -1,8 +1,7 @@
 package com.study.algo.baekjoon.silver;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class Greedy_9440 {
     public static void main(String[] args) throws IOException {
@@ -10,8 +9,21 @@ public class Greedy_9440 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringBuilder result = new StringBuilder();
 
+        // 작은 수를 만드려면 정렬 후 숫자 조합 진행
+
+        // 1. 0 미포함 시
+        // 홀짝 인덱스 별로 숫자 분리
+        // 1 2 3 4 5 => 135, 24
+        // 1 2 2 3 3 4 => 123, 234
+
+        // 2. 0 포함 시
+        // 0이 맨앞에 올 수 없으므로, 0을 대신할 숫자 2개를 앞으로 당겨야 함.
+        // 0 0 1 2 3 => 1 2 0 0 3 => 103, 20
+        // 0 0 0 2 3 3 => 2 3 0 0 0 3 => 200, 303
+
         while(true) {
             StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+            int zeroCount = 0;
 
             int N = Integer.parseInt(st.nextToken());
 
@@ -19,53 +31,44 @@ public class Greedy_9440 {
                 break;
             }
 
-            int[] arr = new int[N];
-
+            List<Integer> sortList = new ArrayList<>();
+            List<Integer> newList = new ArrayList<>();
             for(int i = 0; i < N; i++) {
-                arr[i] = Integer.parseInt(st.nextToken());
+                int num = Integer.parseInt(st.nextToken());
+
+                if(num == 0) {
+                    zeroCount++;
+                }
+
+                sortList.add(num);
             }
 
-            Arrays.sort(arr);
+            Collections.sort(sortList);
 
-            StringBuilder result1 = new StringBuilder();
-            StringBuilder result2 = new StringBuilder();
-            int[] num1 = new int[N % 2 == 0 ? N / 2 : N / 2 + 1];
-            int[] num2 = new int[N / 2];
-            int index1 = 0;
-            int index2 = 0;
+            if(zeroCount > 0) {
+                int num1 = sortList.get(zeroCount);
+                int num2 = sortList.get(zeroCount + 1);
 
-            for(int i = 0; i < N; i++) {
+                sortList.remove(zeroCount);
+                sortList.remove(zeroCount); // 위에서 한 번 삭제했기 때문에 index + 1 할 필요 없음
+
+                newList.add(num1);
+                newList.add(num2);
+            }
+
+            newList.addAll(sortList);
+
+            StringBuilder number1 = new StringBuilder();
+            StringBuilder number2 = new StringBuilder();
+            for(int i = 0; i < newList.size(); i++) {
                 if(i % 2 == 0) {
-                    if(arr[i] == 0) {
-                        index1++;
-                    }
-                    num1[i / 2] = arr[i];
+                    number1.append(newList.get(i));
                 } else {
-                    if(arr[i] == 0) {
-                        index2++;
-                    }
-                    num2[i / 2] = arr[i];
+                    number2.append(newList.get(i));
                 }
             }
 
-            if(index1 != 0) {
-                num1[0] = num1[index1];
-                num1[index1] = 0;
-            }
-
-            if(index2 != 0) {
-                num2[0] = num2[index2];
-                num2[index2] = 0;
-            }
-
-            for(int i : num1) {
-                result1.append(i);
-            }
-            for(int i : num2) {
-                result2.append(i);
-            }
-
-            result.append(Integer.parseInt(result1.toString()) + Integer.parseInt(result2.toString())).append("\n");
+            result.append(Integer.parseInt(number1.toString()) + Integer.parseInt(number2.toString())).append("\n");
         }
 
         bw.write(result.toString());
