@@ -22,8 +22,9 @@ public class Math_3135 {
             favorite[i] = Integer.parseInt(br.readLine());
         }
 
-        int minCnt = Math.abs(A - B);
+        int minCnt = Math.abs(A - B); // 초기값은 A와 B의 차 (즐겨찾기 사용 전)
         for(int i = 0; i < N; i++) {
+            // 즐겨찾기를 사용해서 이동하는 수와 비교
             minCnt = Math.min(minCnt, Math.abs(B - favorite[i]) + 1);
         }
 
