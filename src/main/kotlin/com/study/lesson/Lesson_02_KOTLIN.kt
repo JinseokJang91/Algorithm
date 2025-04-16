@@ -25,7 +25,7 @@ fun main() {
     // e.g. jakarta.annotation, android, jetbrains null 관련 Annotation 활용 시 코틀린에서 인식 가능
     // ☑️ Java와 Kotlin 혼용 시 Java 라이브러리를 가져다 쓸 때 null 관련 정보를 꼼꼼히 체크하는 것이 중요
     val person = Person("홍길동")
-    startsWithC(person.name) // ⚠️ERROR
+    //startsWithC(person.name) // ⚠️ERROR
 }
 
 // 1. 사용 불가
