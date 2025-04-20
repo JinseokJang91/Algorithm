@@ -45,30 +45,28 @@ public class Implementation_2740 {
             }
         }
 
+        // 1. 반복문
         int[][] result = new int[N][K];
 
-        int rowIdx = 0;
-        int colIdx;
         for(int i = 0; i < N; i++) {
-            colIdx = 0;
-            for(int j = 0; j < M; j++) {
-                if(colIdx == K - 1) {
-                    break;
+            for(int j = 0; j < K; j++) {
+                int cal = 0;
+                for(int k = 0; k < M; k++) {
+                    cal += A[i][k] * B[k][j];
                 }
-
-                result[i][colIdx] = A[i][j] * B[rowIdx + j][colIdx];
-
-                colIdx++;
+                result[i][j] = cal;
             }
-            rowIdx++;
         }
 
         for(int[] arr : result) {
             for(int i : arr) {
-                System.out.print(i + " ");
+                bw.write(i + " ");
             }
-            System.out.println();
+            bw.write("\n");
         }
+        
+        // 2. 스트라센 시도해보기
+        // 3. 개선된 스트라센 시도해보기
 
         bw.flush();
         bw.close();
