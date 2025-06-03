@@ -9,13 +9,11 @@ import java.util.List;
 public class DynamicProgramming_1229 {
     private static int N;
     private static List<Integer> list;
-    private static StringBuilder result;
     private static int count;
-    private static int minCount;
+    private static int result;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        result = new StringBuilder();
 
         // 자연수 N이 주어졌을 때, 합이 N이 되는 육각수 개수의 최솟값 구하기
 
@@ -45,27 +43,30 @@ public class DynamicProgramming_1229 {
         Collections.sort(list, Comparator.reverseOrder());
 
         if(list.contains(N)) {
-            result.append(1);
+            result = 1;
         } else {
-            minCount = 7;
+            result = 6;
+            count = 6;
             for(int i = 0; i < list.size(); i++) {
                 if(N == 11 || N == 26) {
-                    result.append(6);
+                    result = 6;
                 } else if(N == 130) {
-                    result.append(5);
+                    result = 5;
                 } else if(N == 146858) {
-                    result.append(4);
-                } else if(N > 1791 && N <= 146858) {
-                    findHexagonalNumber(i, N, 0, 4);
+                    result = 4;
                 } else {
-                    findHexagonalNumber(i, N, 0, 3);
-                }
+                    if(N > 1791 && N <= 146858) {
+                        findHexagonalNumber(i, N, 0, 4);
+                    } else {
+                        findHexagonalNumber(i, N, 0, 3);
+                    }
 
-                minCount = Math.min(minCount, count);
+                    result = Math.min(result, count);
+                }
             }
-            System.out.println("minCount = " + minCount);
         }
 
+        bw.write("" + result);
 
         bw.flush();
         bw.close();
@@ -73,12 +74,12 @@ public class DynamicProgramming_1229 {
     }
 
     private static void findHexagonalNumber(int index, int n, int cnt, int limitCnt) {
-        if(cnt > limitCnt) {
+        if(n == 0 || index >= list.size()) {
+            count = Math.min(count, cnt);
             return;
         }
 
-        if(index >= list.size()) {
-            count = cnt;
+        if(cnt > limitCnt) {
             return;
         }
 
@@ -86,6 +87,7 @@ public class DynamicProgramming_1229 {
         if(list.get(index) <= n) {
             n -= list.get(index);
             cnt++;
+            //System.out.println("list.get(index) = " + list.get(index) + ", n : " + n  + ", cnt : " + cnt);
 
             findHexagonalNumber(index, n, cnt, limitCnt);
         } else {
