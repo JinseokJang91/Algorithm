@@ -9,13 +9,14 @@ import java.util.StringTokenizer;
 
 public class LV2_04 {
     public static void main(String[] args) throws Exception {
+        // 투 포인터
+
         // 백준 1940번 주몽의 명령
         // N의 최대 범위가 15,000이므로 O(nlogn) 시간복잡도 사용 가능
 
         // 1. 풀이
         // (1) 오름차순 정렬 -> 정렬은 nlogn 시간복잡도
         // (2) 투포인터 사용
-        //
 
         // 2. 슈도코드 작성
         // N(재료 개수), M(갑옷이 되는 번호) 저장
