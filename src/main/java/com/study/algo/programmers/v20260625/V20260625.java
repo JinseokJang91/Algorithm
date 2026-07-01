@@ -1,5 +1,10 @@
 package com.study.algo.programmers.v20260625;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class V20260625 {
     public static void main(String[] args) {
         // 😏 반복과 복습은 최고의 공부
