@@ -3,11 +3,13 @@ package com.study.algo.programmers.v20260625;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Stack;
 
 public class V20260701 {
     public static void main(String[] args) {
         Solution1 sol1 = new Solution1();
         int[] sol1Arrray = sol1.solution(5, 555);
+
     }
 }
 
@@ -61,5 +63,33 @@ class Solution1 {
         }
 
         return isZeroOrFive;
+    }
+}
+
+// 배열 만들기 4
+class Solution2 {
+    public int[] solution(int[] arr) {
+        int[] stk = {};
+
+        Stack<Integer> result = new Stack<>();
+        int i = 0;
+
+        while(i < arr.length) {
+            if(result.isEmpty()) {
+                result.push(arr[i]);
+                i++;
+            } else {
+                if(result.peek() < arr[i]) {
+                    result.push(arr[i]);
+                    i++;
+                } else {
+                    result.pop();
+                }
+            }
+        }
+
+        stk = result.stream().mapToInt(n -> n).toArray();
+
+        return stk;
     }
 }
