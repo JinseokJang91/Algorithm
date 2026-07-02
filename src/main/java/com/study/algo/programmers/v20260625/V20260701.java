@@ -1,21 +1,15 @@
 package com.study.algo.programmers.v20260625;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class V20260701 {
     public static void main(String[] args) {
-        Solution1 sol1 = new Solution1();
-        int[] sol1Arrray = sol1.solution(5, 555);
-
+        int[] sol1 = solution1(5, 555);
+        int[] sol2 = solution2(new int[]{1,2,3});
     }
-}
 
-// 배열 만들기 2
-class Solution1 {
-    public int[] solution(int l, int r) {
+    // 배열 만들기 2
+    public static int[] solution1(int l, int r) {
         // 0과 5로 이루어짐 => 나누면 0 또는 1로 이루어짐
 
         int[] answer = {};
@@ -50,7 +44,7 @@ class Solution1 {
     }
 
     // 각 자릿수가 0 또는 1인지 확인
-    private boolean checkNumber(String quota) {
+    private static boolean checkNumber(String quota) {
         boolean isZeroOrFive = true;
         char[] numberArray = quota.toCharArray();
 
@@ -64,11 +58,9 @@ class Solution1 {
 
         return isZeroOrFive;
     }
-}
 
-// 배열 만들기 4
-class Solution2 {
-    public int[] solution(int[] arr) {
+    // 배열 만들기 4
+    public static int[] solution2(int[] arr) {
         int[] stk = {};
 
         Stack<Integer> result = new Stack<>();
