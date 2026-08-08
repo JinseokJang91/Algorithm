@@ -1,4 +1,4 @@
-package com.study.algo.algorithm.c_greedy;
+package com.study.algo.algorithm_lesson.c_greedy;
 
 import java.io.*;
 

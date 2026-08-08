@@ -1,4 +1,4 @@
-package com.study.algo.programmers.v20260625;
+package com.study.algo.programmers;
 
 public class V20260729 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.study.algo.algorithm.b_sort;
+package com.study.algo.algorithm_lesson.b_sort;
 
 import java.io.*;
 import java.util.StringTokenizer;

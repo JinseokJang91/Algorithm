@@ -1,9 +1,4 @@
-package com.study.algo.programmers.v20260625;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+package com.study.algo.programmers;
 
 public class V20260625 {
     public static void main(String[] args) {

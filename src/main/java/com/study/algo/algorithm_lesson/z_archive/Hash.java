@@ -1,4 +1,4 @@
-package com.study.algo.algorithm.z_archive;
+package com.study.algo.algorithm_lesson.z_archive;
 
 import java.util.HashMap;
 import java.util.Iterator;

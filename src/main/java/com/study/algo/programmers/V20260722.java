@@ -1,4 +1,4 @@
-package com.study.algo.programmers.v20260625;
+package com.study.algo.programmers;
 
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package com.study.algo.algorithm.a_data_structure;
+package com.study.algo.algorithm_lesson.a_data_structure;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
