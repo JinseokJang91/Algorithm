@@ -1,4 +1,4 @@
-package com.study.algo.programmers;
+package com.study.algo.claude;
 
 import java.io.*;
 import java.util.StringTokenizer;
